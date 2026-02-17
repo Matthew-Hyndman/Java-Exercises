@@ -1,18 +1,12 @@
-## Getting Started
+# Linked List
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## pros:
+ - dynamic size
+ - ease of insertion/deletion
+## cons:
+ - random access is not allowed (means we have to access elements sequentially starting from the first node)
+ - extra memory space for a pointer is required with each element of the list
+ - not cache friendly, as elements are not stored in contiguous memory locations
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ ## for this demo
+ we will implement a simple linked list in Java, which supports basic operations like insertion, deletion, and traversal.
